@@ -15,8 +15,6 @@ body {
 body main {
   background-color: #e29797;
   display: grid;
-  width: 100vw;
-  height: 100vh;
 }
 body main p {
   margin-block-start: 0px;
@@ -26,6 +24,8 @@ body main p {
 }
 
 .z-landing {
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
