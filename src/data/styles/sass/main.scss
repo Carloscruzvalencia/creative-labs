@@ -1,0 +1,27 @@
+*{
+    user-select: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    main{
+        background-color: rgba(226, 151, 151, 1);
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        p{
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&family=Roboto:wght@300&display=swap');
+
+@import "components/landing";
