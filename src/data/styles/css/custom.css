@@ -25,17 +25,18 @@ body main p {
 
 .z-landing {
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
 }
 .z-landing .logo {
   margin-left: 5vw;
+  margin-top: 5vh !important;
 }
 .z-landing .dec-barr {
   height: 92vh;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 .z-landing .title {
   justify-self: start !important;

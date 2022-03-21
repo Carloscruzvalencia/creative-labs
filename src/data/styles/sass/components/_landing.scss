@@ -1,15 +1,16 @@
 .z-landing{
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    align-items: center;
     .logo{
         margin-left: 5vw;
+        margin-top: 5vh !important;
     }
     .dec-barr{
         height: 92vh;
+        margin-left: 5vw;
+        margin-top: 5vh;
     }
     .title{
         justify-self: start !important;
