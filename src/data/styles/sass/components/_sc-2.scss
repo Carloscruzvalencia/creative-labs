@@ -1,0 +1,26 @@
+.sc-2{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .p-an{
+        display: grid;
+        height: 10vh;
+        margin-top: 35vh;
+        margin-left: 20vw;
+        .p-ani1{
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 4vw;
+        }
+        .p-ani2{
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 4vw;
+            justify-self: center;
+        }
+    }
+    .person-2{
+        justify-self: center;
+        align-self: center;
+        margin-left: 100vw;
+    }
+}
