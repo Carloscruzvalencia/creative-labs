@@ -1,37 +1,3 @@
-// fadeInTimeline
-//     .fromTo(
-//         ".logo",
-//         { y:0,},
-//         { y:30,}
-//     );
-
-// let fadeOutTimeline = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: ".logo",
-//         start: 1080,
-//         end: 2200,
-//         toggleActions: "play reverse restart reverse",
-//         scrub: true,
-//     },
-// });
-
-// fadeOutTimeline
-//     .fromTo(
-//         ".logo",
-//         { y:0},
-//         { y:0,scale:0,},
-//     );
-// gsap.to(".bub-fill", {
-//     scrollTrigger: {
-//         Trigger: "",
-//         toggleActions:"restart resume reverse resume",
-//         scrub: true,
-//         start: "top",
-//         end: 1000,
-//     },
-//     fill: 'rgba(106, 76, 144, 1)'
-// });
-
 const vh = (coef) => window.innerHeight * (coef / 100);
 const vw = (coef) => window.innerWidth * (coef / 100);
 
@@ -56,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 y: 0,
             }, {
                 y: 0,
-                boxShadow: "-23px 30px 30px black",
+                boxShadow: "-23px 30px 30px white",
             }
         );
 
@@ -102,7 +68,39 @@ document.addEventListener("DOMContentLoaded", function (event) {
             // markers: true,
             pin: ".ts-sh",
         },
-        textShadow: "2px 2px #ff0000",
+        textShadow: "10px 10px white",
     });
-
+    gsap.to(".person-2", {
+        scrollTrigger: {
+            Trigger: "",
+            toggleActions: "restart resume reverse resume",
+            scrub: true,
+            start: "60% 100%",
+            end: "60% 45%",
+            // markers: true,
+        },
+        x:-1730,
+    });
+    gsap.to(".th-1", {
+        scrollTrigger: {
+            Trigger: "",
+            toggleActions: "restart resume reverse resume",
+            scrub: true,
+            start: "60% 100%",
+            end: "60% 45%",
+            // markers: true,
+        },
+        textShadow: "10px 10px white",
+    });
+    gsap.to(".tx-1", {
+        scrollTrigger: {
+            Trigger: "",
+            toggleActions: "restart resume reverse resume",
+            scrub: true,
+            start: "80% 100%",
+            end: "80% 45%",
+            // markers: true,
+        },
+        textShadow: "10px 10px white",
+    });
 });
