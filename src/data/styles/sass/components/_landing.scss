@@ -5,17 +5,36 @@
     grid-template-columns: repeat(3,1fr);
     .logo{
         margin-left: 5vw;
-        margin-top: 5vh !important;
+        // mod la altura en pin javascript
+        margin-top: 3vh !important;
     }
     .dec-barr{
-        height: 92vh;
+        height: 92vh !important;
+        width: 1vw !important;
         margin-left: 5vw;
         margin-top: 5vh;
     }
-    .title{
-        justify-self: start !important;
-        font-family: 'Reem Kufi', sans-serif;
-        font-size: 4vw;
-        letter-spacing: 0.5vw;
+    .st-title{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        height: 10vh;
+        margin-top: 35vh;
+        margin-right: 20vw;
+        .st-tlan1{
+            justify-self: start !important;
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 4vw;
+            letter-spacing: 0.5vw;
+            grid-area: 1;
+            padding-bottom: 5vh;
+        }
+        .st-tlan2{
+            justify-self: start !important;
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 4vw;
+            letter-spacing: 0.5vw;
+            grid-area: 2;
+            
+        }
     }
 }

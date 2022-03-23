@@ -31,18 +31,35 @@ body main p {
 }
 .z-landing .logo {
   margin-left: 5vw;
-  margin-top: 5vh !important;
+  margin-top: 3vh !important;
 }
 .z-landing .dec-barr {
-  height: 92vh;
+  height: 92vh !important;
+  width: 1vw !important;
   margin-left: 5vw;
   margin-top: 5vh;
 }
-.z-landing .title {
+.z-landing .st-title {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 10vh;
+  margin-top: 35vh;
+  margin-right: 20vw;
+}
+.z-landing .st-title .st-tlan1 {
   justify-self: start !important;
   font-family: "Reem Kufi", sans-serif;
   font-size: 4vw;
   letter-spacing: 0.5vw;
+  grid-area: 1;
+  padding-bottom: 5vh;
+}
+.z-landing .st-title .st-tlan2 {
+  justify-self: start !important;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
+  grid-area: 2;
 }
 
 /*# sourceMappingURL=custom.css.map */
